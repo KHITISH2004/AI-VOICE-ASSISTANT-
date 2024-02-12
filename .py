@@ -147,7 +147,7 @@ if _name_ == '_main_':
             webbrowser.open("opera.com")
 
 
-        elif 'email to shiva' in query:
+        elif 'email to Khitish' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
@@ -203,7 +203,7 @@ if _name_ == '_main_':
             exit()
 
         elif "who made you" in query or "who created you" in query:
-            speak("I have been created by shiva.")
+            speak("I have been created by Khitish.")
 
         elif 'joke' in query:
             speak(pyjokes.get_joke())
@@ -223,7 +223,7 @@ if _name_ == '_main_':
             speak("If you talk then definitely your human.")
 
         elif "why you came to world" in query:
-            speak("Thanks to shiva. further It's a secret")
+            speak("Thanks to Khitish. further It's a secret")
 
 
 
@@ -231,10 +231,10 @@ if _name_ == '_main_':
             speak("It is 7th sense that destroy all other senses")
 
         elif "who are you" in query:
-            speak("I am your virtual assistant created by shiva")
+            speak("I am your virtual assistant created by Khitish")
 
         elif 'reason for you' in query:
-            speak("I was created as a Minor project by Mister shiva ")
+            speak("I was created as a Minor project by Mister Khitish ")
 
         elif 'change background' in query:
             ctypes.windll.user32.SystemParametersInfoW(20,
